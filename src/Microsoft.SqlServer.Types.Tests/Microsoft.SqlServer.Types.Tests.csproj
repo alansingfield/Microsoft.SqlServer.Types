@@ -5,12 +5,7 @@
     <IsPackable>false</IsPackable>
     <nullable>enable</nullable>
     <LangVersion>10.0</LangVersion>
-    <Configurations>Debug;Release;Debug_Legacy;Release_Legacy</Configurations>
-    <IsLegacyBuild Condition="$(Configuration.Contains(&quot;Legacy&quot;))">true</IsLegacyBuild>
-  </PropertyGroup>
-
-  <PropertyGroup Label="v1.0 Build" Condition="'$(IsLegacyBuild)'=='true'">
-    <DefineConstants>$(DefineConstants);LEGACY</DefineConstants>
+    <Configurations>Debug;Release</Configurations>
   </PropertyGroup>
 
   <ItemGroup>
