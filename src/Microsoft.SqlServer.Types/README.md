@@ -1,5 +1,5 @@
 # Microsoft.SqlServer.Types
-a .NET Standard implementation of the spatial types in `Microsoft.SqlServer.Types`.
+a .NET Standard implementation of the spatial types in `Microsoft.SqlServer.Types` with support for Microsoft.Data.SqlClient 5.0.0.
 
 ### Difference between v1.x, v2.x and v3.x
 The v1.x, v2.x and v3.x versions are identical and kept in sync. The only difference is the dependency:

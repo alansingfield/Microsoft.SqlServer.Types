@@ -1,20 +1,23 @@
 # Microsoft.SqlServer.Types
-a .NET Standard implementation of the spatial types in `Microsoft.SqlServer.Types`
+a .NET Standard implementation of the spatial types in `Microsoft.SqlServer.Types` with support for Microsoft.Data.SqlClient 5.0.0.
 
 ### Difference between v1.x and v2.x
-The v1.x and v2.x versions are identical and kept in sync. The only difference is the dependency:
+The v1.x, v2.x and v3.x versions are identical and kept in sync. The only difference is the dependency:
  - v1.x : Depends on the legacy `System.Data.SqlClient` package.
- - v2.x : Depends on updated `Microsoft.Data.SqlClient` package.
+ - v2.x : Depends on updated `Microsoft.Data.SqlClient 4.0.0` package.
+ - v3.x : Depends on updated `Microsoft.Data.SqlClient 5.0.0` package.
 
 ## Sponsoring
 
-If you like this library and use it a lot, consider sponsoring me. Anything helps and encourages me to keep going.
+This is a temporary fork to resolve a problem with Microsoft.Data.SqlClient; please refer to the original author's message:
 
-See here for details: https://github.com/sponsors/dotMorten
+"If you like this library and use it a lot, consider sponsoring me. Anything helps and encourages me to keep going."
+
+"See here for details: https://github.com/sponsors/dotMorten"
 
 ### NuGet:
 
-Install the package `dotMorten.Microsoft.SqlServer.Types` from NuGet.
+Install the package `alansingfield.Microsoft.SqlServer.Types` from NuGet.
 
 ### Examples
 
