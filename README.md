@@ -1,3 +1,9 @@
+EDIT: Looks like I didn't spot the latest prerelease from Microsoft:
+
+https://www.nuget.org/packages/Microsoft.SqlServer.Types/160.900.6-rc0
+
+There's no need for this fork.
+
 # Microsoft.SqlServer.Types
 a .NET Standard implementation of the spatial types in `Microsoft.SqlServer.Types` with support for Microsoft.Data.SqlClient 5.0.0.
 
